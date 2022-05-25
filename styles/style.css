@@ -135,6 +135,10 @@ body {
   height: 60px;
 }
 
+.spending .spending__wrapper-grafic .spending__week-days{
+  cursor: pointer;
+  
+}
 .spending__total-month {
   display: grid;
   grid-gap: 10px;
@@ -186,4 +190,234 @@ body {
 .spending__total-month .total,
 .description {
   color: var(--Medium-brown);
+}
+
+
+
+
+.spending .spending__wrapper-grafic .spending__week-days .spending__mon-day,
+.spending__tue-day,
+.spending__wed-day,
+.spending__thu-day,
+.spending__fri-day,
+.spending__sat-day,
+.spending__sun-day {
+  position: relative;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__mon-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__tue-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__wed-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__thu-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__fri-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__sat-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__sun-day
+  span {
+  display: none;
+  position: absolute;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__mon-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__tue-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__wed-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__thu-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__fri-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__sat-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
+}
+
+.spending
+  .spending__wrapper-grafic
+  .spending__week-days
+  .spending__sun-day:hover
+  span {
+  padding: 10px 12px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Dark-brown);
+  width: 50px;
+  white-space: nowrap;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  right: 0;
+  color: var(--Very-pale-orange);
+  text-decoration: none;
 }
