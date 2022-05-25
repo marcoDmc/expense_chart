@@ -6,3 +6,4 @@
 .prettierignore
 *design
 *style-guide.md
+*node_modules
