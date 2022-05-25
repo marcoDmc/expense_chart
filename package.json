@@ -3,14 +3,5 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack -w"
-  },
-  "dependencies": {
-    "css-loader": "^ 6.2.0",
-    "mini-css-extract-plugin": "^2.2.2",
-    "webpack": "^5.52.0",
-    "webpack-cli": "^4.8.0"
-  }
+
 }
