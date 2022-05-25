@@ -117,3 +117,36 @@ sixthDay.Saturday();
 
 const seventhDay = new PriceWeek("sunday");
 seventhDay.Sunday();
+
+class DaysOfTheWeek {
+  HighlightOfTheWeek() {
+    let date = new Date().getDay();
+
+    switch (date) {
+      case 1:
+        monday.style.background = "hsl(186, 34%, 60%)";
+        break;
+      case 2:
+        tuesday.style.background = "hsl(186, 34%, 60%)";
+        break;
+      case 3:
+        wednesday.style.background = "hsl(186, 34%, 60%)";
+        break;
+      case 4:
+        thursday.style.background = "hsl(186, 34%, 60%)";
+        break;
+      case 5:
+        friday.style.background = "hsl(186, 34%, 60%)";
+        break;
+      case 6:
+        saturday.style.background = "hsl(186, 34%, 60%)";
+        break;
+      case 7:
+        sunday.style.background = "hsl(186, 34%, 60%)";
+        break;
+    }
+  }
+}
+
+const day = new DaysOfTheWeek();
+day.HighlightOfTheWeek();
